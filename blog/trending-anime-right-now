@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta Tags  -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trending Anime Right Now - MxFly</title>
+
+    <meta property="og:title" content="Blog - MxFly">
+    <meta property="og:description"
+        content="Watch the latest Anime Movies in your preferred language for free on MxFly! Download and enjoy the best HD quality Anime content with our simple and secure download process. Start streaming now!" />
+    <meta property="og:image" content="https://www.mxfly.in/blog/assets/poster/top-trending-anime.png">
+    <meta property="og:url" content="https://www.mxfly.in/blog/trending-anime-right-now">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="follow, index" />
+
+    <!-- Links -->
+
+    <link rel="shortcut icon" href="https://bit.ly/yasiricon" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/prism.css">
+    <link rel="stylesheet" href="/assets/default/css/style.css">
+    <link rel="stylesheet" href="assets/css/post-style.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P12RM9VGYF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-P12RM9VGYF');
+    </script>
+
+</head>
+
+<body>
+
+    <div class="hero-section-main all-hero-section">
+        <div class="hero-section">
+            <nav>
+                <div class="navbar">
+                    <div class="nav-left-box nav-boxes">
+                        <a href="/"><img src="/assets/default/img/logo.png" alt="logo" id="logoImg"></a>
+                    </div>
+
+                    <i class="fa-solid fa-bars" id="sideOpen" onclick="openMenu();"></i>
+
+                    <div class="nav-center-box nav-boxes" id="navMenu">
+                        <div class="nav-center-content">
+                            <i class="fa-solid fa-xmark" id="sideClose" onclick="closeMenu();"></i>
+                            <ul id="navLinksUl">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/search/?s=anime">Latest Anime</a></li>
+                                <li><a href="/search/?s=movies">Movies</a></li>
+                                <li><a href="/p/contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="nav-right-box nav-boxes">
+                        <div class="nav-search-icon">
+                            <i class="fa-solid fa-magnifying-glass" onclick="openSearchPopUpBox();"></i>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar Ended -->
+        </div>
+    </div>
+
+    <!-- Mobile Search -->
+
+    <div class="mobile-search-main" id="mobileSearch">
+        <div class="mobile-search-box">
+            <form action="/search/" method="get" id="mobileSearchForm">
+                <input type="text" name="s" id="searchInput" placeholder="Enter Anime Name..." required>
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Mobile Search End -->
+
+    <!-- Notification Box -->
+
+    <div class="notification-box-main">
+        <div class="notification-box" id="notice">
+            <!-- Notification Here -->
+        </div>
+    </div>
+
+    <!-- Notification Box End -->
+
+
+    <div class="post-container-main">
+        <div class="post-container">
+
+            <div class="post-left">
+                <div class="post-tag-box">
+                    <button class="tag">Tags</button>
+                    <a href="/blog/search/?s=popular+anime" class="tag">Popular Anime</a>
+                    <a href="/search/?s=naruto" class="tag">Naruto</a>
+                    <a href="/search/?s=black+clover" class="tag">Black Clover</a>
+                </div>
+
+                <div class="post-title-box">
+                    <h2>Top Trending Anime Right Now | trending anime 2025 | most trending anime right now</h2>
+                </div>
+
+                <div class="post-date-author-box">
+                    <div class="post-author">
+                        <a href="/owner" class="post-autor-profile">
+                            <img src="/assets/default/img/owner.jpg" alt="">
+                            <p>Owner</p>
+                        </a>
+                    </div>
+
+                    <div class="post-date-box">
+                        <p><i class="fa-regular fa-calendar"></i> 22 January 2025</p>
+                    </div>
+                </div>
+
+                <div class="post-img-box" id="postImgBox">
+                    <img src="/blog/assets/poster/top-trending-anime.png" alt="">
+                </div>
+
+                <div class="post-article-box">
+                    <p>Discover the hottest anime series currently captivating audiences with our collection of top trending anime right now. Immerse yourself in the captivating worlds of these popular shows, filled with thrilling storylines, dynamic characters, and stunning animation. From action-packed adventures to heartwarming tales, our selection offers something for every anime enthusiast. Stay up-to-date with the latest anime trends and indulge in the excitement of these must-watch series.</p>
+
+                    <h2><span>1.</span> Naruto Shippuden</h2>
+
+                    <p><a href="/search/?s=naruto">Naruto Shippuden</a> is a popular Japanese anime series that follows the story of Naruto Uzumaki as he embarks on a journey to become the strongest ninja in his village. The show is filled with action-packed battles, emotional moments, and a cast of memorable characters that fans have grown to love over the years. <a href="/search/?s=naruto">Naruto Shippuden</a> With its intricate plotlines, well-developed characters, and stunning animation, Naruto Shippuden has captured the hearts of viewers around the world. Whether you're a longtime fan or new to the series, this anime is sure to keep you entertained with its mix of humor, drama, and epic fight scenes. <a href="/search/?s=naruto">- Download Link</a></p>
+
+                    <h2><span>2.</span> Wind Breaker</h2>
+                    <p>Haruka Sakura wants nothing to do with weaklings he's only interested in the strongest of the strong. He's just started at Furin High School, a school of degenerates known only for their brawling strength strength they use to protect their town from anyone who wishes it ill. Wind Breaker Download Anime <a href="/search/?s=wind+breaker">Wind Breaker</a> Season 1 2024- Triple Audio (Hindi-English) Wind Breaker S01 All Episodes 480p 720p WebRip HD x264 & Hevc 10bit TV Show. <a href="/search/?s=wind+breaker">- Download Link</a></p>
+
+                    <h2><span>3.</span> Kaiju No 8</h2>
+                    <p><a href="/search/?s=kaiju">Kaiju No. 8</a> is a thrilling manga series that follows the story of Kafka Hibino, a man who dreams of joining the Defense Force to fight against the monstrous Kaiju creatures threatening humanity. When a sudden turn of events leads to Kafka becoming a Kaiju himself, he must navigate his new powers and responsibilities while uncovering dark secrets about the Kaiju and the organization he once idolized. With intense action scenes, intriguing plot twists, and dynamic characters, <a href="/search/?s=kaiju">Kaiju No. 8</a> is a must-read for fans of sci-fi and fantasy genres. <a href="/search/?s=kaiju">- Download Link</a></p>
+
+                    <h2><span>4.</span> Black Clover</h2>
+                    <p><a href="/search/?s=black+clover">Black Clover</a> a captivating anime series that follows the journey of Asta, a young boy born without magic in a world where magic is everything. Determined to become the Wizard King, Asta overcomes challenges with his determination and unwavering spirit. Join Asta and his friends on their adventures filled with magic, friendship, and epic battles. <a href="/search/?s=black+clover">- Download Link</a></p>
+
+                    <h2><span>5.</span> My Hero Academia Season 4</h2>
+                    <p>The <a href="/search/?s=My+Hero+Academia">My Hero Academia Season 4</a> Get ready for an action-packed adventure with My Hero Academia Season 4! This thrilling anime series continues the story of Izuku Midoriya and his fellow aspiring heroes as they face new challenges and villains. With stunning animation, intense battles, and heartfelt moments, Season 4 will keep you on the edge of your seat. Join the journey as the young heroes-in-training push their limits and discover the true meaning of heroism. Don't miss out on this epic installment of My Hero Academia. <a href="/search/?s=My+Hero+Academia">- Download Link</a></p>
+                </div>
+            </div>
+
+
+
+            <div class="post-right">
+                <div class="post-right-sticky-box">
+                    <div class="search-main">
+                        <div class="search-box">
+                            <div class="widget-title">
+                                <h3>Search Here</h3>
+                            </div>
+                            <div class="widget-content" role="search">
+                                <form action="/blog/search/" method="get" class="search-form" target="_top">
+                                    <input aria-label="Search this blog" autocomplete="off" class="search-input"
+                                        name="s" placeholder="Search this blog" value="">
+                                    <input class="search-action" type="submit" value="Search">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="side-label-box-main">
+                        <div class="widget Label">
+                            <div class="widget-title">
+                                <h3 class="title">Labels</h3>
+                            </div>
+                            <div class="widget-content">
+                                <a class="post-tag" href="/blog/search/?s=popular+anime">Popular Anime</a>
+                                <a class="post-tag" href="/blog/search/?s=anime">Anime</a>
+                                <a class="post-tag" href="/blog/search/?s=2025">2025</a>
+                                <a class="post-tag" href="/blog/search/?s=upcoming+anime">Upcoming Anime</a>
+                                <a class="post-tag" href="/blog/search/?s=anime+news">Anime News</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="collect-email-main">
+                        <div class="collect-email">
+                            <h3 class="collect-email-heading">Stay Informed</h3>
+                            <span class="collect-email-span">Get Notified About Next Update Direct to Your inbox</span>
+
+                            <div class="collect-email-inputs">
+                                <form id="collectEmailForm" action="/p/contact/contact.php" method="POST">
+                                    <input type="email" name="email" required id="collectEmail"
+                                        class="collect-email-input" placeholder="Email Address" autocomplete="off">
+                                    <div class="message" id="message"></div>
+                                    <input type="submit" value="SUBSCRIBE" class="collect-email-btn">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section Started  -->
+
+    <footer id="footer">
+        <div class="footer-box">
+            <div class="footer-left">
+                <div class="footer-about-box">
+                    <div class="footer-about-img-box">
+                        <img src="/assets/default/img/footer-img.png" alt="">
+                    </div>
+                    <div class="footer-about-text">
+                        <h3>MxFly</h3>
+                        <p>MxFly offers a wide selection of Hindi dubbed anime downloads for all anime enthusiasts. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="footer-right"> -->
+            <div class="footer-col">
+                <h3>Important Pages</h3>
+                <div class="footer-links-box">
+                    <a href="/p/about">About</a>
+                    <a href="/p/contact">Contact</a>
+                    <a href="/p/disclaimer">Disclaimer</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Our Websites</h3>
+                <div class="footer-links-box">
+                    <a href="https://mxfly.in">MxFly.in</a>
+                    <a href="https://code365days.com">Code365Days.com</a>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2024. Created by - <a href="/" id="copyrightLink">MxFly</a></p>
+        </div>
+    </footer>
+
+    <!-- Footer Section End  -->
+
+
+
+    <!-- JavaScript -->
+    <script src="assets/js/prism.js"></script>
+    <script src="/assets/default/js/script.js"></script>
+    <script src="/assets/default/js/notice.js"></script>
+    <script src="/p/contact/contact.js"></script>
+
+
+</body>
+
+</html>

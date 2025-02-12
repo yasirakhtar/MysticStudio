@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/default/img/favicon.png" type="image/x-icon">
+    <title>How To Download Movies - FilmiGo</title>
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="/assets/default/css/style.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P12RM9VGYF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-P12RM9VGYF');
+    </script>
+</head>
+
+<body>
+
+    <div class="hero-section-main all-hero-section">
+        <div class="hero-section">
+            <nav>
+                <div class="navbar">
+                    <div class="nav-left-box nav-boxes">
+                        <a href="/"><img src="/assets/default/img/logo.png" alt="logo" id="logoImg"></a>
+                    </div>
+
+                    <i class="fa-solid fa-bars" id="sideOpen" onclick="openMenu();"></i>
+
+                    <div class="nav-center-box nav-boxes" id="navMenu">
+                        <div class="nav-center-content">
+                            <i class="fa-solid fa-xmark" id="sideClose" onclick="closeMenu();"></i>
+                            <ul id="navLinksUl">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/search/?s=anime">Latest Anime</a></li>
+                                <li><a href="/search/?s=movies">Movies</a></li>
+                                <li><a href="/p/contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="nav-right-box nav-boxes">
+                        <div class="nav-search-icon">
+                            <i class="fa-solid fa-magnifying-glass" onclick="openSearchPopUpBox();"></i>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar Ended -->
+        </div>
+    </div>
+
+    <!-- Mobile Search -->
+
+    <div class="mobile-search-main" id="mobileSearch">
+        <div class="mobile-search-box">
+            <form action="/search/" method="get" id="mobileSearchForm">
+                <input type="text" name="s" id="searchInput" placeholder="Enter Movie Name..." required>
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Mobile Search End -->
+
+
+    <!-- -- Blog Start -- -->
+
+    <div class="content-box">
+        <div class="blog-main">
+            <div class="blog">
+                <div class="blog-content">
+                    <h2>How To Download ?</h2>
+                    <p>Click on the download button shown on the screen.</p>
+                    <div class="how-to-download-img-box">
+                        <img src="/assets/img/gdss1.jpg" alt="1">
+                        <img src="/assets/img/gdss2.jpg" alt="2">
+                        <img src="/assets/img/gdss3.jpg" alt="3">
+                    </div>
+
+                    <p>Click on the download button shown on the screen.</p>
+                    <div class="how-to-download-img-box">
+                        <img src="/assets/img/gdss4.jpg" alt="1">
+                        <img src="/assets/img/gdss5.jpg" alt="2">
+                        <img src="/assets/img/gdss6.jpg" alt="3">
+                    </div>
+
+                    <a href="/search/">Download Now !</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Section Started  -->
+
+    <footer id="footer">
+        <div class="footer-box">
+            <div class="footer-left">
+                <div class="footer-about-box">
+                    <div class="footer-about-img-box">
+                        <img src="/assets/default/img/footer-img.png" alt="">
+                    </div>
+                    <div class="footer-about-text">
+                        <h3>MxFly</h3>
+                        <p>MxFly offers a wide selection of Hindi dubbed anime downloads for all anime enthusiasts. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="footer-right"> -->
+            <div class="footer-col">
+                <h3>Important Pages</h3>
+                <div class="footer-links-box">
+                    <a href="/p/about">About</a>
+                    <a href="/p/contact">Contact</a>
+                    <a href="/p/disclaimer">Disclaimer</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Our Websites</h3>
+                <div class="footer-links-box">
+                    <a href="https://mxfly.in">MxFly.in</a>
+                    <a href="https://code365days.com">Code365Days.com</a>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2024. Created by - <a href="/" id="copyrightLink">MxFly</a></p>
+        </div>
+    </footer>
+
+    <!-- Footer Section End  -->
+
+
+    <!-- JavaScript -->
+    <script src="/assets/default/js/script.js"></script>
+    <script src="/assets/default/js/notice.js"></script>
+    <script src="/p/contact/contact.js"></script>
+</body>
+
+</html>

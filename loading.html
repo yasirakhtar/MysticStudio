@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading...</title>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .loading-box-main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #080808;
+            height: 100vh;
+        }
+
+        .loading-box {
+            overflow: hidden;
+            position: fixed;
+            transform: translateX(0%);
+        }
+
+        .loading-img-box {
+            overflow: hidden;
+            height: 64px;
+            animation: pageLoad 2s infinite linear;
+        }
+
+        .img-width {
+            width: 200px;
+            height: 64px;
+        }
+
+        .loading-box img {
+            width: 200px;
+            height: 64px;
+            overflow: hidden;
+        }
+
+        @keyframes pageLoad {
+            0% {
+                width: 0px;
+            }
+
+            25% {
+                width: 50px;
+            }
+
+            50% {
+                width: 100px;
+            }
+
+            75% {
+                width: 150px;
+            }
+
+            100% {
+                width: 200px;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="loading-box-main">
+        <div class="loading-box">
+            <div class="img-width">
+                <div class="loading-img-box">
+                    <img src="/assets/default/img/logo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

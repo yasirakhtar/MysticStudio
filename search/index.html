@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/default/img/favicon.png" type="image/x-icon">
+    <title>All Post - MxFly</title>
+
+    <!-- Meta Tags -->
+    <meta name="description"
+        content="Watch the latest Anime Movies in your preferred language for free on MxFly! Download and enjoy the best HD quality Anime content with our simple and secure download process. Start streaming now!">
+    <meta name="keywords"
+        content="MxFly All Post, mxfly all post, free anime download, mxfly free anime, mxfly free anime download, mxfly anime, anime downlaod by mxfly, mxfly anime download, Anime, MxFly, Naruto: Shippuden, Death Note, One Piece, Demon Slayer, Attack on Titan, dragon ball super, anime porn, anime sex, 9 anime, anime wallpaper, anime xxx, xxx anime, anime drawing, hentai anime, anime hentai">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Css -->
+    <link rel="stylesheet" href="/assets/default/css/style.css">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P12RM9VGYF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-P12RM9VGYF');
+    </script>
+</head>
+
+<body>
+
+    <div class="hero-section-main all-hero-section">
+        <div class="hero-section">
+            <nav>
+                <div class="navbar">
+                    <div class="nav-left-box nav-boxes">
+                        <a href="/"><img src="/assets/default/img/logo.png" alt="logo" id="logoImg"></a>
+                    </div>
+
+                    <i class="fa-solid fa-bars" id="sideOpen" onclick="openMenu();"></i>
+
+                    <div class="nav-center-box nav-boxes" id="navMenu">
+                        <div class="nav-center-content">
+                            <i class="fa-solid fa-xmark" id="sideClose" onclick="closeMenu();"></i>
+                            <ul id="navLinksUl">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/search/?s=anime">Latest Anime</a></li>
+                                <li><a href="/search/?s=movies">Movies</a></li>
+                                <li><a href="/p/contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="nav-right-box nav-boxes">
+                        <div class="nav-search-icon">
+                            <i class="fa-solid fa-magnifying-glass" onclick="openSearchPopUpBox();"></i>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar Ended -->
+        </div>
+    </div>
+
+    <!-- Mobile Search -->
+
+    <div class="mobile-search-main" id="mobileSearch">
+        <div class="mobile-search-box">
+            <form action="/search/" method="get" id="mobileSearchForm">
+                <input type="text" name="s" id="searchInput" placeholder="Enter Anime Name..." required>
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Mobile Search End -->
+
+    <!-- Notification Box -->
+
+    <div class="notification-box-main">
+        <div class="notification-box" id="notice">
+            <!-- Notification Here -->
+        </div>
+    </div>
+
+    <!-- Notification Box End -->
+
+    <!-- Recent Anime -->
+
+    <div class="recent-anime" id="recentAnime">
+        <div class="recent-anime-box">
+            <h2 class="category-title" id="title">All Anime</h2>
+            <div class="recent-row" id="allAnime">
+                <!-- All Anime Posted Here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="notFound" id="notFound">
+        <div class="notFound-row">
+            <p>4</p>
+
+            <p>0</p>
+            <p>4</p>
+        </div>
+        <h3> Nothing Found </h3>
+        <br>
+        <h5>Sorry, but nothing matched your search terms. Please try again with some different keywords.</h5>
+    </div>
+
+    <!-- Footer Section Started  -->
+
+    <footer id="footer">
+        <div class="footer-box">
+            <div class="footer-left">
+                <div class="footer-about-box">
+                    <div class="footer-about-img-box">
+                        <img src="/assets/default/img/footer-img.png" alt="">
+                    </div>
+                    <div class="footer-about-text">
+                        <h3>MxFly</h3>
+                        <p>MxFly offers a wide selection of Hindi dubbed anime downloads for all anime enthusiasts. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="footer-right"> -->
+            <div class="footer-col">
+                <h3>Important Pages</h3>
+                <div class="footer-links-box">
+                    <a href="/p/about">About</a>
+                    <a href="/p/contact">Contact</a>
+                    <a href="/p/disclaimer">Disclaimer</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Our Websites</h3>
+                <div class="footer-links-box">
+                    <a href="https://mxfly.in">MxFly.in</a>
+                    <a href="https://Code365Days.com">Code365Days.com</a>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2024. Created by - <a href="/" id="copyrightLink">MxFly</a></p>
+        </div>
+    </footer>
+
+    <!-- Footer Section End  -->
+
+
+    <!-- JavaScript -->
+    <script src="/assets/default/js/script.js"></script>
+    <script src="/assets/default/js/allAnime.js"></script>
+    <script src="/assets/default/js/notice.js"></script>
+</body>
+
+</html>

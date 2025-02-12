@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- Meta Tags  -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 Must-Watch Anime for Beginners | Start Your Anime Journey | MxFly</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="description" content="Discover the top 10 must-watch anime for beginners! Explore action, romance, comedy, and more with this ultimate anime guide. Perfect for newcomers.">
+    <meta name="keywords" content="anime for beginners, top anime, must-watch anime, best anime, anime guide, beginner anime list">
+    <meta name="author" content="Yasir Akhtar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Top 10 Must-Watch Anime for Beginners | Start Your Anime Journey">
+    <meta property="og:description" content="Discover the top 10 must-watch anime for beginners! Explore action, romance, comedy, and more with this ultimate anime guide. Perfect for newcomers.">
+    <meta property="og:image" content="https://mxfly.in/blog/assets/poster/top-10-must-watch-anime-for-beginners.jpg">
+    <meta property="og:url" content="https://mxfly.in/blog/top-10-must-watch-anime-for-beginners">
+    <meta property="og:site_name" content="Your Anime Blog">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Top 10 Must-Watch Anime for Beginners | Start Your Anime Journey">
+    <meta name="twitter:description" content="Discover the top 10 must-watch anime for beginners! Explore action, romance, comedy, and more with this ultimate anime guide.">
+    <meta name="twitter:image" content="https://mxfly.in/blog/assets/poster/top-10-must-watch-anime-for-beginners.jpg">
+    <meta name="twitter:site" content="@YasirAkhtar0">
+    <meta name="twitter:creator" content="@YasirAkhtar0">
+
+    <!-- Robots -->
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical Link -->
+    <link rel="canonical" href="https://mxfly.in/blog/top-10-must-watch-anime-for-beginners">
+
+
+    <!-- Links -->
+
+    <link rel="shortcut icon" href="https://bit.ly/yasiricon" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/prism.css">
+    <link rel="stylesheet" href="/assets/default/css/style.css">
+    <link rel="stylesheet" href="assets/css/post-style.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-P12RM9VGYF"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-P12RM9VGYF');
+    </script>
+
+</head>
+
+<body>
+
+    <div class="hero-section-main all-hero-section">
+        <div class="hero-section">
+            <nav>
+                <div class="navbar">
+                    <div class="nav-left-box nav-boxes">
+                        <a href="/"><img src="/assets/default/img/logo.png" alt="logo" id="logoImg"></a>
+                    </div>
+
+                    <i class="fa-solid fa-bars" id="sideOpen" onclick="openMenu();"></i>
+
+                    <div class="nav-center-box nav-boxes" id="navMenu">
+                        <div class="nav-center-content">
+                            <i class="fa-solid fa-xmark" id="sideClose" onclick="closeMenu();"></i>
+                            <ul id="navLinksUl">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/search/?s=anime">Latest Anime</a></li>
+                                <li><a href="/search/?s=movies">Movies</a></li>
+                                <li><a href="/p/contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="nav-right-box nav-boxes">
+                        <div class="nav-search-icon">
+                            <i class="fa-solid fa-magnifying-glass" onclick="openSearchPopUpBox();"></i>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!-- Navbar Ended -->
+        </div>
+    </div>
+
+    <!-- Mobile Search -->
+
+    <div class="mobile-search-main" id="mobileSearch">
+        <div class="mobile-search-box">
+            <form action="/search/" method="get" id="mobileSearchForm">
+                <input type="text" name="s" id="searchInput" placeholder="Enter Anime Name..." required>
+                <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Mobile Search End -->
+
+    <!-- Notification Box -->
+
+    <div class="notification-box-main">
+        <div class="notification-box" id="notice">
+            <!-- Notification Here -->
+        </div>
+    </div>
+
+    <!-- Notification Box End -->
+
+
+    <div class="post-container-main">
+        <div class="post-container">
+
+            <div class="post-left">
+                <div class="post-tag-box">
+                    <button class="tag">Tags</button>
+                    <a href="/blog/search/?s=popular+anime" class="tag">Popular Anime</a>
+                    <a href="/search/?s=naruto" class="tag">Naruto</a>
+                    <a href="/search/?s=your+name" class="tag">Your Name</a>
+                </div>
+
+                <div class="post-title-box">
+                    <h2>Top 10 Must-Watch Anime for Beginners</h2>
+                </div>
+
+                <div class="post-date-author-box">
+                    <div class="post-author">
+                        <a href="/owner" class="post-autor-profile">
+                            <img src="/assets/default/img/owner.jpg" alt="">
+                            <p>Owner</p>
+                        </a>
+                    </div>
+
+                    <div class="post-date-box">
+                        <p><i class="fa-regular fa-calendar"></i> 24 January 2025</p>
+                    </div>
+                </div>
+
+                <div class="post-img-box" id="postImgBox">
+                    <img src="/blog/assets/poster/top-10-must-watch-anime-for-beginners.jpg" alt="">
+                </div>
+
+                <div class="post-article-box">
+                    <p>If you’re new to the world of anime and feeling overwhelmed by the endless choices, don’t worry! We’ve got you covered with a curated list of the top 10 must-watch anime for beginners. Each of these series offers a unique experience and showcases the diversity of anime storytelling. So grab some popcorn, and let’s dive in!</p>
+
+                    <h2><span>1.</span> Naruto</h2>
+
+                    <p class="no-mb"><b><span>Genre:</span></b> Action, Adventure, Fantasy</p>
+                    <p class="no-mb"><b><span>Episodes:</span></b> 220 (Naruto) + 500 (Naruto Shippuden)</p>
+                    <p>Follow the journey of Naruto Uzumaki, a young ninja with dreams of becoming the Hokage (leader of his village). Packed with emotional moments, epic battles, and themes of friendship and perseverance, Naruto is a perfect starting point for newcomers.</p>
+
+                    <h2><span>2.</span> Attack on Titan</h2>
+                    <p class="no-mb"><b><span>Genre:</span></b> Action, Mystery, Drama</p>
+                    <p class="no-mb"><b><span>Episodes:</span></b> 87 (Final season ongoing)</p>
+                    <p>This gripping series is set in a world where humanity is on the brink of extinction due to giant humanoid creatures called Titans. With its intense plot twists and breathtaking animation, Attack on Titan will keep you hooked from the very first episode.</p>
+
+                    <h2><span>3.</span> Demon Slayer: Kimetsu no Yaiba</h2>
+                    <p class="no-mb"><b><span>Genre:</span></b> Action, Fantasy</p>
+                    <p class="no-mb"><b><span>Episodes:</span></b> 44 (Season 3 ongoing)</p>
+                    <p>Known for its stunning visuals and heartfelt story, Demon Slayer follows Tanjiro Kamado as he embarks on a quest to save his sister and avenge his family. The show’s universal appeal makes it a great choice for beginners. <a href="/search/?s=demon+slayer">- Download Link</a></p>
+
+                    <h2><span>4.</span> Your Name (Kimi no Na wa)</h2>
+                    <p class="no-mb"><b><span>Genre:</span></b> Romance, Fantasy, Drama</p>
+                    <p class="no-mb"><b><span>Format:</span></b> Movie</p>
+                    <p>If you’re looking for a shorter yet deeply emotional experience, Your Name is a must-watch. This beautifully animated film explores themes of love, fate, and connection as two teenagers mysteriously swap bodies.</p>
+
+                    <h2><span>5.</span> My Hero Academia</h2>
+                    <p class="no-mb"><b><span>Genre:</span></b> Action, Comedy, Superhero</p>
+                    <p class="no-mb"><b><span>Episodes:</span></b> 138 (Season 7 announced)</p>
+                    <p>In a world where almost everyone has superpowers (called Quirks), Izuku Midoriya dreams of becoming the greatest hero. <a href="/search/?s=My+Hero">My Hero Academia</a> combines action, humor, and heartfelt moments, making it a beginner-friendly series.</p>
+
+                    <h2><span>6.</span> One Punch Man</h2>
+                    <p class="no-mb"><b><span>Genre:</span></b> Action, Comedy, Superhero</p>
+                    <p class="no-mb"><b><span>Episodes:</span></b> 24 (2 seasons)</p>
+                    <p>This hilarious take on the superhero genre follows Saitama, a hero who can defeat any opponent with a single punch. Its over-the-top action and comedic moments make it a great pick for newcomers. <a href="/search/?s=one+punch">- Download Link</a></p>
+
+                    <h2><span>7.</span> Death Note</h2>
+                    <p class="no-mb"><b><span>Genre:</span></b> Mystery, Supernatural, Thriller</p>
+                    <p class="no-mb"><b><span>Episodes:</span></b> 37</p>
+                    <p>A psychological thriller that keeps you on the edge of your seat, <a href="/search/?s=death+note">Death Note</a> follows Light Yagami, a student who gains the power to kill anyone by writing their name in a mysterious notebook. It’s a must-watch for fans of mind games and moral dilemmas.</p>
+
+                    <h2><span>8.</span> Spirited Away</h2>
+                    <p class="no-mb"><b><span>Genre:</span></b> Fantasy, Adventure</p>
+                    <p class="no-mb"><b><span>Format:</span></b> Movie</p>
+                    <p>Studio Ghibli’s masterpiece Spirited Away takes you on a magical journey as Chihiro, a young girl, navigates a mysterious spirit world. This enchanting film is perfect for viewers of all ages.</p>
+
+                    <h2><span>9.</span> Hunter x Hunter (2011)</h2>
+                    <p class="no-mb"><b><span>Genre:</span></b> Adventure, Fantasy</p>
+                    <p class="no-mb"><b><span>Episodes:</span></b> 148</p>
+                    <p>Gon Freecss embarks on an adventure to become a Hunter and find his father. With its rich world-building and compelling characters, Hunter x Hunter is an excellent introduction to long-running anime series.</p>
+
+                    <h2><span>10.</span> Haikyuu!!</h2>
+                    <p class="no-mb"><b><span>Genre:</span></b> Sports, Comedy, Drama</p>
+                    <p class="no-mb"><b><span>Episodes:</span></b> 85 (Final movie announced)</p>
+                    <p>Even if you’re not into sports, Haikyuu!! will win you over with its exhilarating volleyball matches and inspiring characters. It’s a feel-good series that’s easy to fall in love with.</p>
+
+                    <h2><span>10.</span> Final Thoughts</h2>
+                    <p>Whether you’re into action-packed adventures, heartfelt dramas, or magical fantasies, these anime are sure to ignite your love for the medium. Each series on this list offers something special and serves as a fantastic gateway into the diverse world of anime.</p>
+                    <p><b>So, which one are you starting with?</b></p>
+                </div>
+            </div>
+
+
+
+            <div class="post-right">
+                <div class="post-right-sticky-box">
+                    <div class="search-main">
+                        <div class="search-box">
+                            <div class="widget-title">
+                                <h3>Search Here</h3>
+                            </div>
+                            <div class="widget-content" role="search">
+                                <form action="/blog/search/" method="get" class="search-form" target="_top">
+                                    <input aria-label="Search this blog" autocomplete="off" class="search-input"
+                                        name="s" placeholder="Search this blog" value="">
+                                    <input class="search-action" type="submit" value="Search">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="side-label-box-main">
+                        <div class="widget Label">
+                            <div class="widget-title">
+                                <h3 class="title">Labels</h3>
+                            </div>
+                            <div class="widget-content">
+                                <a class="post-tag" href="/blog/search/?s=popular+anime">Popular Anime</a>
+                                <a class="post-tag" href="/blog/search/?s=anime">Anime</a>
+                                <a class="post-tag" href="/blog/search/?s=2025">2025</a>
+                                <a class="post-tag" href="/blog/search/?s=upcoming+anime">Upcoming Anime</a>
+                                <a class="post-tag" href="/blog/search/?s=anime+news">Anime News</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="collect-email-main">
+                        <div class="collect-email">
+                            <h3 class="collect-email-heading">Stay Informed</h3>
+                            <span class="collect-email-span">Get Notified About Next Update Direct to Your inbox</span>
+
+                            <div class="collect-email-inputs">
+                                <form id="collectEmailForm" action="/p/contact/contact.php" method="POST">
+                                    <input type="email" name="email" required id="collectEmail"
+                                        class="collect-email-input" placeholder="Email Address" autocomplete="off">
+                                    <div class="message" id="message"></div>
+                                    <input type="submit" value="SUBSCRIBE" class="collect-email-btn">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section Started  -->
+
+    <footer id="footer">
+        <div class="footer-box">
+            <div class="footer-left">
+                <div class="footer-about-box">
+                    <div class="footer-about-img-box">
+                        <img src="/assets/default/img/footer-img.png" alt="">
+                    </div>
+                    <div class="footer-about-text">
+                        <h3>MxFly</h3>
+                        <p>MxFly offers a wide selection of Hindi dubbed anime downloads for all anime enthusiasts. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="footer-right"> -->
+            <div class="footer-col">
+                <h3>Important Pages</h3>
+                <div class="footer-links-box">
+                    <a href="/p/about">About</a>
+                    <a href="/p/contact">Contact</a>
+                    <a href="/p/disclaimer">Disclaimer</a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Our Websites</h3>
+                <div class="footer-links-box">
+                    <a href="https://mxfly.in">MxFly.in</a>
+                    <a href="https://code365days.com">Code365Days.com</a>
+                </div>
+            </div>
+            <!-- </div> -->
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2024. Created by - <a href="/" id="copyrightLink">MxFly</a></p>
+        </div>
+    </footer>
+
+    <!-- Footer Section End  -->
+
+
+
+    <!-- JavaScript -->
+    <script src="assets/js/prism.js"></script>
+    <script src="/assets/default/js/script.js"></script>
+    <script src="/assets/default/js/notice.js"></script>
+    <script src="/p/contact/contact.js"></script>
+
+
+</body>
+
+</html>

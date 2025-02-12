@@ -1,0 +1,1984 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    transition: all 0.3s;
+    color: var(--primary-color);
+    border-color: var(--primary-color) !important;
+    box-sizing: border-box;
+}
+
+* a{
+    text-decoration: none !important;
+    color: var(--main-color);
+}
+
+body{
+    background: #080808;
+    overflow-x: hidden !important;
+}
+
+:root{
+    --primary-color: #f5f5f5;
+    --primary-color-hover: #d6d6d6;
+    --main-color: #ff004f;
+    --bg-color: #f5f5f5;
+    --bd-color: #080808;
+    --link-color: #ff004f;
+    --link-h-color: #dd0046;
+    --footer-bg-color: rgb(38, 38, 38);
+    --footer-link-color: rgb(171, 171, 171);
+    --side-widget-shadow: 1px 1px 4px 0 rgba(255, 255, 255, 0.12);
+}
+
+.none{
+    visibility: hidden !important;
+}
+
+.search-box-main{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0000006e;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#searchPopupBoxMain{
+    display: none;
+}
+
+#searchPopupBox{
+    background: var(--main-color);
+    width: 70%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    position: relative;
+}
+
+#PopUpSearchForm{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#PopUpSearchForm input{
+    color: var(--bd-color);
+    font-weight: 600;
+    height: 50px;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid var(--primary-color) !important;
+    background: var();
+    outline: none;
+    border-radius: 3px;
+}
+
+#PopUpSearchForm button{
+    background: var(--link-h-color);
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid var(--primary-color) !important;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#PopUpSearchForm button:hover{
+    background: var(--primary-color);
+    color: var(--main-color);
+}
+
+#searchBoxClose{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.hero-section-main{
+    height: 102vh;
+    background-image: url("/assets/default/img/background2.jpg");
+    /* background-image: url("https://wallpapercave.com/wp/wp5203548.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 800px;
+    border-bottom: 5px solid var(--main-color) !important;
+}
+
+.hero-section{
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to top, 
+        rgba(0, 0, 0, 0.7) 100%, 
+        rgba(0, 0, 0, 0) 60%, 
+        rgba(0, 0, 0, 0.8) 100%);
+    
+}
+
+nav{
+    height: 80px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    max-width: 1550px;
+    align-items: center;
+    padding: 0 !important;
+    position: relative;
+}
+
+
+.nav-boxes{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left-box{
+    width: 25%;
+}
+
+.nav-center-box{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-right-box{
+    width: 25%;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-left-box img{
+    height: 70px;
+}
+
+.nav-center-content ul{
+    display: flex;
+    gap: 18px;
+    margin-bottom: 0;
+}
+
+.nav-center-content ul li{
+    list-style: none;
+    color: var(--primary-color);
+    font-size: 18px;
+}
+
+.nav-center-content ul li a{
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.nav-center-content ul li a:hover{
+    color: var(--link-color);
+}
+
+.nav-search-icon{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--main-color);
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.nav-search-icon i{
+    color: var(--primary-color);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* hero-content */
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 86%;
+}
+
+.hero-content .hero-content-items{
+    text-align: center;
+}
+
+.hero-content .hero-content-items h1{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero-content .hero-content-items h5{
+    margin-top: 20px;
+    font-size: 1.25rem;
+}
+
+.hero-search-box{
+    margin-top: 20px;
+    height: 50px;
+}
+
+.hero-search-box form{
+    height: 100%;
+}
+
+.hero-search-box #searchInput{
+    border: 1px solid var(--primary-color) !important;
+    outline: none;
+    height: 100%;
+    width: 350px;
+    border-radius: 4px;
+    padding: 0 10px;
+    background: #00000070;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.hero-search-box #searchInput:focus{
+    border: 1px solid var(--main-color) !important;
+}
+
+.hero-search-box button{
+    border: none;
+    height: 100%;
+    background: var(--main-color);
+    padding: 0 30px;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.hero-search-box button:hover{
+    background: var(--link-h-color);
+}
+
+#sideOpen, #sideClose{
+    display: none;
+}
+
+
+@media only screen and (max-width: 888px) {
+
+    #sideOpen, #sideClose{
+        display: block;
+    }
+
+    .navbar{
+        justify-content: space-between;
+    }
+
+    #sideOpen{
+        color: var(--main-color);
+        /* position: absolute; */
+        /* top: 20px; */
+        /* right: 30px; */
+    }
+    
+    .nav-right-box{
+        display: none;
+    }
+
+    .nav-center-box{
+        position: fixed;
+        right: -500px;
+        top: 0;
+        height: 100vh;
+        display: block;
+        background: var(--main-color);
+        z-index: 1000;
+    }
+
+    .nav-center-content{
+        padding: 15px;
+    }
+
+    .nav-center-box .nav-center-content #navLinksUl{
+        display: block;
+    }
+
+    .nav-center-box .nav-center-content #navLinksUl li{
+        padding: 12px 0;
+    }
+
+    .nav-center-content ul li a:hover{
+        color: var(--bd-color)
+    }
+
+    .nav-center-content i{
+        font-size: 26px;
+        cursor: pointer;
+    }
+
+    .navbar #sideOpen{
+        font-size: 26px;
+        cursor: pointer;
+    }
+
+    .hero-content .hero-content-title{
+        font-size: 32px !important;
+        padding: 0 10px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .hero-section-main{
+        max-height: 500px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .hero-content .hero-content-title{
+        font-size: 26px !important;
+        padding: 0 10px;
+    }
+
+    .hero-content h5{
+        font-size: 16px;
+    }
+
+    .hero-search-box{
+        height: auto;
+    }
+
+    .hero-search-box #searchInput{
+        height: 46px;
+        width: 80%;
+    }
+
+    .hero-search-box button{
+        height: 40px;
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    nav{
+        height: 60px;
+    }
+
+    .nav-left-box img{
+        height: 50px;
+    }
+
+    .navbar{
+        align-items: center;
+    }
+
+    .navbar div:first-child{
+        width: auto;
+    }
+
+    .navbar i{
+        font-size: 20px !important;
+    }
+}
+
+/* recent-anime */
+
+.recent-anime, .popular-anime{
+    padding: 30px 0 !important;
+    width: 90%;
+    margin: auto;
+    max-width: 1550px;
+    margin-top: 40px;
+}
+
+.recent-anime{
+    margin-top: 0;
+}
+
+.category-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+.recent-row, .popular-row{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.anime{
+    height: 370px;
+    width: 19%;
+    overflow: hidden;
+    border-radius: 8px;
+    background: var(--main-color);
+    padding: 8px;
+    margin-bottom: 30px;
+}
+
+.anime a{
+    text-decoration: none;
+}
+
+.anime a:hover .anime-img-box img{
+    width: 105%;
+}
+
+.anime-link-box{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.anime-img-box{
+    width: 100%;
+    height: 85%;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.anime-img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.anime-title-box p{
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    margin-top: 8px;
+}
+
+.show-more-btn-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.show-more-btn-box a{
+    background: var(--main-color);
+    color: var(--primary-color);
+    padding: 12px 30px !important;
+    font-weight: 700;
+    border: 1px solid var(--main-color) !important;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.recent-anime{
+    padding-bottom: 0px !important;
+}
+
+.show-more-btn-box a:hover{
+    background: transparent;
+}
+
+@media only screen and (max-width: 888px){
+
+    .popular-row, .recent-row{
+        flex-wrap: wrap;
+    }
+
+    .anime{
+        width: 49% !important;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .anime{
+        margin-bottom: 15px;
+    }
+
+    .anime-img-box{
+        height: 81%;
+    }
+}
+
+@media only screen and (max-width: 460px){
+    .anime{
+        height: 300px;
+    }
+}
+
+
+/* ----- Footer ------ */
+
+footer{
+    background: #262626;
+    margin-top: 50px;
+}
+
+.footer-box{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    padding: 40px 30px 20px 30px;
+    justify-content: space-evenly;
+    gap: 100px;
+}
+
+.footer-left{
+    width: 40%;
+}
+
+.footer-about-box{
+    display: flex;
+    gap: 20px;
+    height: 120px;
+    padding: 5px;
+}
+
+.footer-about-img-box{
+    width: 40%;
+    overflow: hidden;
+    padding: 2px !important;
+    /* border: 1px solid var(--main-color) !important; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-about-img-box img{
+    width: 100%;
+    object-fit: cover;
+    margin: 0 !important;
+}
+
+.footer-about-text{
+    width: 60%;
+}
+
+.footer-about-text h3{
+    margin-bottom: 14px;
+}
+
+.footer-about-text p{
+    color: #ababab;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.footer-box .footer-col .footer-links-box{
+    padding: 10px 5px;
+}
+
+.footer-box .footer-col .footer-links-box a{
+    display: block;
+    line-height: 23px;
+    font-size: 14px;
+    color: #ababab;
+    transition: 0.3s ease-in-out;
+}
+
+.footer-box .footer-col .footer-links-box a:hover{
+    color: #e9467a;
+}
+
+.copyright{
+    border-top: 1px solid #3f3f3f !important;
+    width: 100%;
+    text-align: center;
+    padding: 25px 0px;
+    background: rgb(38, 38, 38);
+    font-weight: 300;
+    margin-top: 20px;
+}
+
+.copyright i { color: rgb(255, 0, 79); }
+
+.copyright p a{
+    color: #e9467a;
+    transition: 0.3s ease-in-out;
+    text-decoration: none !important;
+}
+
+.copyright p a:hover{
+    color: #b54769;
+}
+
+@media only screen and (max-width: 900px){
+    .footer-box{
+        flex-wrap: wrap;
+        gap: 40px 100px;
+    }
+
+    .footer-left{
+        width: 90%;
+        margin: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .footer-box{
+        gap: 30px;
+        flex-direction: column;
+    }
+
+    .footer-left{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    .anime{
+        height: 250px;
+    } 
+
+    .anime p{
+        font-size: 12px !important; 
+    }
+
+    .anime-img-box{
+        height: 80%;
+    }
+
+    .footer-left{
+        height: auto;
+    }
+
+    .footer-about-box{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 5px;
+        margin-bottom: 20px;
+    }
+
+    .footer-about-box div{
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Movie Page */
+
+.all-hero-section{
+    background-image: none;
+    height: auto;
+    border-bottom: 1px solid var(--main-color) !important;
+}
+
+.anime-section{
+    width: 90%;
+    max-width: 1550px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10px;
+    gap: 15px;
+}
+
+.anime-left{
+    width: 70%;
+}
+
+.anime-left #animeTitle{
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+
+#animeDescription{
+    line-height: 23px;
+    font-size: 14px;
+    color: #ababab;
+}
+
+.anime-info-box{
+    margin-top: 50px;
+}
+
+.anime-info-box h3{
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
+
+.anime-info-box p{
+    margin-left: 5px;
+    font-size: 15px;
+    color: #ababab;
+    line-height: 25px;
+}
+
+.anime-info-box p b{
+    color: #f5f5f5;
+}
+
+.anime-info-box span{
+    color: #ababab;
+    font-size: 14px;
+}
+
+.anime-info-box #language{
+    color: var(--main-color);
+}
+
+.screenshot-box-main{
+    margin-top: 40px;
+}
+
+.screenshot-box-main h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: var(--main-color);
+}
+
+.screenshot-box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.ss-boxes{
+    width: 49%;
+    height: 225px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.ss-boxes img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+}
+
+.download-links-box-main{
+    margin-top: 40px;
+}
+
+.download-links-box-main h3{
+    color: var(--main-color);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.dl-box{
+    /* border: 1px solid #ff00517c !important; */
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    justify-content: center;
+}
+
+.dl-text-box p{
+    font-weight: 600;
+}
+
+.dl-btn-box a{
+    display: inline-flex;
+    gap: 10px;
+    border: 1px solid var(--main-color) !important;
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.dl-btn-box a i{
+    color: var(--main-color);
+}
+
+.dl-btn-box a:hover, .dl-btn-box a:hover i{
+    color: var(--link-h-color);
+    border-color: var(--link-h-color) !important;
+}
+
+.dl-box div{
+    border: 1px solid #ff00517c !important;
+    width: 40%;
+    padding: 12px 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.dl-btn-box{
+    border-left: 1px solid var(--main-color) !important;
+}
+
+.how-to p{
+    color: var(--main-color);
+}
+
+.how-to-btn-box a, .how-to-btn-box a i{
+    background: var(--main-color);
+    color: var(--primary-color);
+    background: #ff00514f;
+}
+
+.how-to-btn-box a{
+    padding: 8px 28px !important;
+}
+
+.how-to-btn-box a:hover, .how-to-btn-box a:hover i{
+    color: var(--main-color);
+    background: none;
+}
+
+/* anime-right-content */
+
+.anime-right{
+    width: 30%;
+}
+
+.anime-right .anime-right-content{
+    display: flex;
+    justify-content: right;
+    height: 100%;
+}
+
+.anime-poster{
+    width: 90%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 10px;
+    background: var(--main-color);
+    height: 460px;
+    position: sticky;
+    top: 70px;
+    cursor: pointer;
+}
+
+.anime-poster img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+hr{
+    border-color: #ff005146 !important;
+    margin: 35px auto !important;
+    border-top: none !important;
+    width: 98%;
+}
+
+@media only screen and (max-width: 888px){
+    .anime-section{
+        flex-direction: column-reverse;
+    }
+
+    .anime-left{
+        width: 100%;
+    }
+
+    .anime-right{
+        width: 100%;
+        margin-bottom: 30px;
+        /*Tablet Version*/
+        /* display: none; */
+    }
+
+    .anime-right .anime-right-content{
+        justify-content: center;
+    }
+
+    .anime-poster{
+        width: 250px;
+        height: 370px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+
+    .ss-boxes{
+        height: 130px;
+    }
+
+    .dl-box{
+        padding-left: 0;
+    }
+
+    .dl-box div{
+        width: 50%;
+    }
+}
+
+/* responsive */
+
+@media only screen and (max-width: 430px){
+
+    .screenshot-box{
+        flex-direction: column;
+    }
+
+    .ss-boxes{
+        width: 100%;
+        height: 190px;
+    }
+
+    .dl-box{
+        flex-direction: column;
+        border: 1px solid #ff00517c !important;
+        padding-bottom: 10px;
+    }
+
+    .dl-box div{
+        width: 100%;
+        justify-content: center;
+        border: none !important;
+        height: 50px;
+    }
+}
+
+
+/*Loading Effect*/
+
+.loading .anime-img-box {
+    width: 100%;
+    animation: loadAnimation 0.9s infinite;
+    height: 78%;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.loading .anime-title-box {
+    width: 100%;
+    animation: loadAnimation 0.8s infinite;
+    height: 17%;
+    border-radius: 6px;
+}
+
+@keyframes loadAnimation {
+    0% {
+        background: transparent;
+    }
+
+    100% {
+        background: #0000002e;
+    }
+}
+
+#title b{
+    color: #ababab;
+}
+
+/* ----------404 page---------- */
+
+.notFound{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.notFound-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notFound-row p{
+    /* font-size: 15vw !important */
+    font-size: 186px;
+    color: var(--main-color);
+}
+
+.notFound h3{
+    color: var(--primary-color);
+}
+
+.notFound h5{
+    color: #ababab;
+}
+
+/* --------- Contact Page ---------- */
+
+.contact-box-main{
+    width: 90%;
+    margin: auto;
+    max-width: 1550px;
+    margin-top: 40px;
+}
+
+.contact-content-box .category-title{
+    margin-bottom: 6px;
+}
+
+.contact-content-box .contact-description-box .contact-description{
+    font-size: .9rem;
+    color: #ababab;
+}
+
+.contact-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 35px;
+}
+
+.contact-row .contact-left{
+    width: 70%;
+}
+
+.contact-left table{
+    border-collapse: collapse;
+    border-color: var(--main-color) !important;
+}
+
+.contact-left table tr td{
+    padding: 18px 15px;
+    border-color: var(--main-color) !important;
+}
+
+.contact-left table tr td h3{
+    font-size: 1.5rem;
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+.contact-left table tr td p{
+    color: var(--main-color);
+    font-size: 1.25rem;
+}
+
+.ofc-mail p{
+    letter-spacing: 1px;
+}
+
+.contact-left table tr td a p{
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contact-left table tr td a:hover p{
+    color: var(--main-color);
+}
+
+.stay-connected-table-box{
+    margin-top: 20px;
+}
+
+.stay-connect-tr td:first-child {
+    width: 55%;
+}
+
+.stay-connect-tr td{
+    text-align: center;
+}
+
+
+
+.contact-row .contact-right{
+    width: 28%;
+}
+
+.contact-right-sticky{
+    position: sticky;
+    top: 40px;
+}
+
+/* ------- Email Collect ----- */
+
+.collect-email-main {
+    /* margin-top: 30px; */
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: var(--side-widget-shadow);
+}
+
+.collect-email {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(122 122 122 / 0.53) !important;
+    position: relative;
+}
+
+.collect-email::before {
+    content: '🔔';
+    position: absolute;
+    left: 50%;
+    top: 5px;
+    transform: translate(-50%, -50%);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    background: #ce0142;
+    box-sizing: border-box;
+    padding: 3px;
+    font-size: 14px;
+    color: transparent;
+    text-shadow: 0 0 0 #fff;
+}
+
+.collect-email .collect-email-heading {
+    margin: 15px 0;
+    padding: 7px;
+    padding-top: 15px;
+    font-family: poppins, sans-serif;
+}
+
+.collect-email .collect-email-span {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #cacaca;
+}
+
+.collect-email .collect-email-inputs {
+    margin-top: 20px;
+}
+
+.collect-email-inputs form{
+    display: flex;
+    flex-direction: column;
+}
+
+.collect-email .collect-email-inputs input {
+    height: 32px;
+    font-size: 11px;
+    padding: 0 10px;
+    border-radius: 4px;
+    margin: 0 0 5px;
+    border: 1px solid rgb(122 122 122 / 0.53) !important;
+    background: transparent;
+    outline: none;
+}
+
+.collect-email .collect-email-inputs .collect-email-input:focus {
+    border-color: #ff004f !important;
+}
+
+.collect-email .collect-email-inputs .collect-email-btn {
+    background: #ff004f;
+    border: none !important;
+    cursor: pointer;
+}
+
+/* media query */
+
+@media only screen and (max-width: 840px){
+    .contact-row{
+        flex-direction: column;
+    }
+
+    .contact-left{
+        width: 100% !important;
+    }
+
+    .contact-right{
+        width: 100% !important;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    .contact-left table tr td{
+        padding: 15px 12px;
+    }
+    .contact-left table tr td h3{
+        font-size: 1.25rem;
+    }
+    .contact-left table tr td p{
+        font-size: 1rem;
+    }
+
+    .contact-left table tr td a p{
+        font-size: .80rem;
+    }
+}
+
+@media only screen and (max-width: 400px){
+
+    .contact-left table tr td h3{
+        font-size: 1rem;
+    }
+
+    .contact-left table tr td p{
+        font-size: 0.75rem;
+    }
+
+    .contact-left table tr td a p{
+        font-size: .70rem;
+    }
+
+    .contact-content-box .category-title{
+        font-size: 1.25rem;
+    }
+
+    .contact-content-box .contact-description-box .contact-description{
+        font-size: .7rem;
+        color: #ababab;
+    }
+}
+
+.soon{
+    position: relative;
+    cursor: not-allowed;
+}
+
+.soon::after{
+    content: "coming soon";
+    position: relative;
+    top: -10px;
+    right: -5px;
+    font-size: 11px;
+    color: var(--main-color);
+    text-wrap: nowrap;
+    animation: blinks 1.5s alternate infinite;
+}
+
+@keyframes blinks {
+    0% {
+        color: var(--main-color);
+    }
+
+    50% {
+        color: var(--primary-color);
+    }
+
+    75% {
+        color: var(--main-color);
+    }
+
+    100% {
+        color: var(--primary-color);
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .how-to-btn-box a{
+        text-wrap: nowrap;
+    }
+}
+
+@media only screen and (max-width: 835px){
+    .recent-row, .popular-row{
+        display: flex;
+        gap: 4px !important;
+        justify-content: space-between !important;
+        align-items: center;
+    }
+}
+
+/* ------- Mobile Search -------- */
+
+.mobile-search-main{
+    /* border: 1px solid #000; */
+    margin-top: 30px;
+    display: none;
+}
+
+.mobile-search-box{
+    display: flex;
+    justify-content: center;
+}
+
+.mobile-search-box form{
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    width: 70%;
+    height: 38px;
+    /* border-radius: 4px; */
+    /* overflow: hidden; */
+}
+
+.mobile-search-box form input{
+    padding: 8px 14px;
+    color: #3f3f3f;
+    outline: none;
+    height: 100%;
+    width: 90%;
+    border: none;
+    font-weight: 600;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background: transparent;
+    border: 1px solid var(--main-color) !important;
+    color: #cacaca;
+    border-right: none !important;
+}
+
+.mobile-search-box form input:focus{
+    border-color: #cacaca !important;
+}
+
+.mobile-search-box form button{
+    background: var(--main-color);
+    height: 100%;
+    width: 38px;
+    /* width: 11%; */
+    border: none;
+    font-size: 18px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 888px){
+    .mobile-search-main{
+        display: block !important;
+    }
+
+    .mobile-search-box form{
+        width: 85% !important;
+    }
+}
+
+@media only screen and (max-width: 435px){
+   
+    .hero-content-items h5{
+        font-size: 1rem !important;
+    }
+
+    .mobile-search-box form{
+        width: 85%;
+        height: 32px;
+    }
+
+    .mobile-search-box form input{
+        font-size: 12px;
+    }
+
+    .mobile-search-box form button{
+        font-size: 15px;
+    }
+
+    .category-title{
+        font-size: 1.15rem;
+    }
+
+    .notFound-row p{
+        font-size: 7rem;
+    }
+}
+
+/* ------------------- */
+
+#notification {
+    position: fixed;
+    right: 20px;
+    width: 300px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    background: var(--main-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#notification p {
+    margin: 0 0 10px 0;
+}
+
+#notification img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#notification .close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: #333;
+    display: flex;
+    font-size: 18px;
+}
+
+@media (min-width: 1024px){
+    #notification{
+        bottom: 20px;
+        animation: fadeRight 0.9s 1;
+    }
+
+    @keyframes fadeRight {
+        from{
+            transform: translateX(100%);
+        }
+
+        to{
+            transform: translateX(0%);
+        }
+    }
+
+    @keyframes fadeLeft {
+        from{
+            transform: translateX(0%);
+        }
+
+        to{
+            transform: translateX(120%);
+        }
+    }
+
+    #notification{
+        height: auto;
+        padding-bottom: 0 !important;
+    }
+
+    #notification a{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+
+    #notification img{
+        height: 60px;
+        width: 60px;
+        border-radius: 4px;
+    }
+}
+
+@media (max-width: 600px) {
+    #notification {
+        width: 80%;
+        max-width: 400px;
+        top: 70px;
+        right: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: auto !important;
+        animation: fadeRight 0.9s 1;
+    }
+
+    @keyframes fadeRight {
+        from{
+            transform: translateX(100%);
+        }
+
+        to{
+            transform: translateX(0%);
+        }
+    }
+
+    #notification img{
+        display: none;
+    }
+
+    #notification p{
+        margin: 0;
+        padding-right: 25px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 1024px) {
+    #notification {
+        width: 60%;
+        max-width: 500px;
+    }
+}
+
+/* ------------- Disclaimer Page ----------- */
+
+.disclaimer-content h3, .about-content h3{
+    margin-bottom: 10px;
+    margin-top: 4px;
+}
+
+.disclaimer-content p, .about-content p{
+    font-size: .9rem;
+    color: #ababab;
+    margin-bottom: 30px;
+}
+
+.disclaimer-content p a, .about-content p a{
+    color: var(--main-color);
+}
+
+.disclaimer-content p a:hover, .about-content p a:hover{
+    color: var(--primary-color);
+}
+
+/* ----------- About Us ---------- */
+
+.thanks-pararaph{
+    font-size: 1rem !important;
+}
+
+.about-content ul{
+    padding: 0 30px;
+    font-size: .9rem;
+    margin: 30px 0;
+    color: #ababab;
+}
+
+.about-content ul li{
+    color: #ababab;
+    margin-bottom: 10px;
+}
+
+
+
+/* ----------- Total Episodes ------------- */
+
+.anime-img-box{
+    position: relative;
+}
+
+.ep-added{
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+    padding: 8px 0px;
+    background: var(--main-color);
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    width: 100%;
+    text-wrap: nowrap;
+    transition: 0.3s ease-in-out;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 13px;
+    color: var(--primary-color);
+}
+
+.ep-added{
+    font-weight: bold;
+}
+
+.anime:hover .ep-added{
+    bottom: 0px;
+    box-shadow: 0 0 10px 1px #3f3f3f57 inset;
+}
+
+/* ------------- How To Download ------------ */
+
+.content-box{
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.blog-main{
+    width: 90%;
+    margin: auto;
+}
+
+.blog-content h2{
+    padding: 10px 0;
+    text-align: center;
+    background: var(--main-color);
+    border-radius: 4px;
+}
+
+.blog-content a{
+    color: var(--primary-color);
+    display: block;
+    padding: 10px 0;
+    margin-top: 50px;
+    text-align: center;
+    background: var(--main-color);
+    border-radius: 4px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.blog-content a:hover{
+    background: var(--link-h-color);
+}
+
+.blog-content p{
+    margin: 30px 0 20px 10px;
+    font-weight: 600;
+}
+
+.blog-content .how-to-download-img-box{
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    height: 450px;
+    margin-bottom: 30px;
+    padding: 0 10px;
+}
+
+.blog-content .how-to-download-img-box img{
+    height: 100%;
+    border: 1px solid var(--main-color) !important;
+    padding: 5px
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ;
+}
+
+@media only screen and (max-width: 800px){
+    .blog-content .how-to-download-img-box{
+        height: auto;
+        gap: 8px;
+    }
+
+    .blog-content .how-to-download-img-box img{
+        width: 33%;
+        height: auto;
+    }
+
+    .blog-content p{
+        margin: 25px 0 15px 8px;
+        font-size: 13px;
+    }
+
+    .blog-content h2, .blog-content a{
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .blog-content p{
+        margin: 25px 0 15px 8px;
+        font-size: 11px;
+    }
+
+    .blog-content .how-to-download-img-box{
+        gap: 4px;
+    }
+
+    .blog-content h2, .blog-content a{
+        font-size: .8rem;
+        padding: 8px;
+    }
+}
+
+/* ------------- How To Download End ------------ */
+
+.showcase-box-main {
+    background: var(--main-color);
+    padding: 12px;
+    border-radius: 6px;
+    width: 21rem;
+    box-shadow: 0px 0px 20px rgba(86, 39, 254, 0.2);
+    overflow: hidden;
+    position: fixed;
+    bottom: 14px;
+    right: 14px;
+    z-index: 3;
+    transition: 0.2s all;
+    opacity: 80%;
+    animation: fadeRight 0.9s 1;
+}
+
+@keyframes fadeRight {
+    from{
+        transform: translateX(100%);
+    }
+
+    to{
+        transform: translateX(0%);
+    }
+}
+
+.showcase-box-main:hover{
+    opacity: 100%;
+}
+
+.showcase-box-main .show-box-top {
+    border-bottom: 1px solid var(--bg-color) !important;
+    padding-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.showcase-box-main .show-box-top p{
+    background: var(--primary-color);
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.showcase-box-main .show-box-top p:hover{
+    background: var(--link-h-color);
+    color: var(--primary-color) !important;
+}
+
+.showcase-box-main .show-box-top p:hover a,
+.showcase-box-main .show-box-top p:hover a i{
+    color: var(--primary-color) !important;
+}
+
+.showcase-box-main .show-box-top p a{
+    color: var(--main-color) !important;
+    display: flex;
+    gap: 6px;
+    font-size: 13px;
+    align-items: center;
+    font-weight: 550;
+}
+
+.showcase-box-main .show-box-top p a i{
+    color: var(--main-color);
+    margin-bottom: 0;
+}
+
+.showcase-box-main .show-box-top i{
+    cursor: pointer;
+}
+
+.showcase-box-main .show-box-top i:hover{
+    color: var(--bd-color);
+}
+
+.show-box-content img {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.show-box-content p{
+    margin-top: 6px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 550;
+}
+
+.showcase-mobile{
+    display: none;
+}
+
+@media only screen and (max-width: 988px){
+    #showCaseBox{
+        display: none;
+    }
+
+    .showcase-mobile{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .showcase-mobile i{
+        font-size: 25px;
+        padding: 12px;
+        border-radius: 4px;
+        background: var(--main-color);
+        box-shadow: var(--side-widget-shadow);
+    }
+
+    #showCaseBox{
+        height: auto;
+    }
+
+    #showCaseBox img{
+        max-width: 120px;
+        max-height: 70px;
+    }
+
+    #showCaseBox .show-box-content{
+       display: flex;
+       gap: 10px;
+    }
+
+    #showCaseBox .show-box-content p{
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        -webkit-line-clamp: 3;
+    }
+}
+
+/* ------------- Adult Notice --------- */
+
+#adultMain{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000000d7;
+    cursor: cell;
+}
+
+#adult{
+    padding: 20px 30px;
+    background: white;
+    border-radius: 5px;
+    cursor: auto;
+}
+
+#adult p{
+    color: var(--main-color) !important;
+    font-weight: 600;
+    border-bottom: 1px solid var(--main-color) !important;
+    padding-bottom: 10px;
+}
+
+#adultBtnBox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    gap: 30px;
+}
+
+#adult button{
+    border: 1px solid transparent;
+    background: var(--main-color);
+    padding: 10px 24px;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+#adult #adultBtnFalse{
+    background: #000;
+}
+
+#adult #adultBtnTrue:hover{
+    background: var(--link-h-color);
+}
+
+#adult #adultBtnFalse:hover{
+    background: #000000e5;
+}
+
+
+/* Contact Subscribing Notice */
+#message{
+    font-size: 12px;
+    margin: 0 4px 8px;
+    text-align: left;
+    min-height: 14px;
+}
+
+/* ------------- Notification Icon -------------- */
+
+.nav-right-box{
+    gap: 30px;
+}
+
+.notification-icon-box{
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.notification-icon-box i{
+    color: var(--main-color);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.notification-icon-box:hover{
+    background: var(--main-color);
+}
+
+.notification-icon-box:hover i{
+    color: var(--primary-color);
+}
+
+.notifications-box{
+    position: absolute;
+    right: 20px;
+    top: 85px;
+    height: 400px;
+    width: 300px;
+    z-index: 9999;
+    background: var(--main-color);
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 1px 1px 4px 0 rgba(255, 255, 255, 0.288);
+    display: none;
+}
+
+.notifications-content-box{
+    border: 1px solid #000;
+    border-radius: 4px;
+    height: 100%;
+    padding: 8px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.notifications-content-box::-webkit-scrollbar{
+    width: 5px;
+    display: none;
+}
+
+.notifications{
+    display: flex;
+    justify-content: space-between;
+}
+
+.notifications-content p{
+    margin: 5px 0;
+    border-bottom: 1px solid #fff;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+
+.notifications p a{
+    color: var(--primary-color);
+    font-size: 12.5px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    line-height: 18px;
+}
+
+.notifications p a:hover{
+    color: var(--primary-color-hover);
+}
