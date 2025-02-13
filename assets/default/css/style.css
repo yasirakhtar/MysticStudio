@@ -2176,4 +2176,18 @@ hr{
     .home-search-box-new button{
         padding: 0 15px;
     }
+
+    .about-and-desc{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .about-and-desc .about-box{
+        width: 100%;
+    }
+
+    .about-and-desc .desc-box{
+        width: 100%;
+        margin-top: 30px;
+    }
 }

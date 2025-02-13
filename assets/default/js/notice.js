@@ -11,7 +11,7 @@ function joinTg() {
     messageText.innerText = 'Please Join This Channel For Updates...';
 
     const messageLink = document.createElement('a');
-    let channelLink = messageLink.href = "https://t.me/MxFly";
+    let channelLink = messageLink.href = "https://t.me/MYSTIC_WATCH_OFFICIAL";
     messageLink.target = '_blank';
     messageLink.href = channelLink;
 
