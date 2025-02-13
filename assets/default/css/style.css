@@ -19,9 +19,9 @@ body{
 }
 
 :root{
-    --primary-color: #f5f5f5;
+    --primary-color: #080808;
     --primary-color-hover: #d6d6d6;
-    --main-color: #ff004f;
+    --main-color: #fff;
     --bg-color: #f5f5f5;
     --bd-color: #080808;
     --link-color: #ff004f;
@@ -29,6 +29,19 @@ body{
     --footer-bg-color: rgb(38, 38, 38);
     --footer-link-color: rgb(171, 171, 171);
     --side-widget-shadow: 1px 1px 4px 0 rgba(255, 255, 255, 0.12);
+
+    /* New Colors */
+
+    --mystic-font-color: #fff;
+    --mystic-font-black-color: #000;
+    --mystic-border-color: #fff;
+    --mystic-border-light-color: #a5a5a57c;
+    --mystic-border-black-color: #000;
+    --mystic-background: #000;
+    --mystic-white-background: #fff;
+    --mystic-white-hover: #000000c5;
+    --mystic-white-hover-bg: #e2e2e2d3;
+    --mystic-black-hover-bg: #b4b4b4c5;
 }
 
 .none{
@@ -127,6 +140,7 @@ body{
 
 nav{
     height: 80px;
+    background: var(--mystic-white-background);
 }
 
 .navbar{
@@ -181,12 +195,12 @@ nav{
 }
 
 .nav-center-content ul li a{
-    color: var(--primary-color);
+    color: var(--mystic-font-black-color);
     text-decoration: none;
 }
 
 .nav-center-content ul li a:hover{
-    color: var(--link-color);
+    color: var(--mystic-white-hover);
 }
 
 .nav-search-icon{
@@ -195,13 +209,13 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--main-color);
+    background: var(--mystic-background);
     border-radius: 3px;
     cursor: pointer;
 }
 
 .nav-search-icon i{
-    color: var(--primary-color);
+    color: var(--mystic-font-color);
     height: 100%;
     width: 100%;
     display: flex;
@@ -225,11 +239,13 @@ nav{
 .hero-content .hero-content-items h1{
     font-size: 3rem;
     font-weight: 700;
+    color: var(--mystic-font-color);
 }
 
 .hero-content .hero-content-items h5{
     margin-top: 20px;
     font-size: 1.25rem;
+    color: var(--mystic-font-color);
 }
 
 .hero-search-box{
@@ -251,6 +267,8 @@ nav{
     background: #00000070;
     font-weight: 600;
     color: var(--primary-color);
+    border-color: var(--mystic-border-color) !important;
+    color: var(--mystic-font-color);
 }
 
 .hero-search-box #searchInput:focus{
@@ -264,10 +282,12 @@ nav{
     padding: 0 30px;
     border-radius: 4px;
     font-weight: 700;
+    transition: 0.3s ease-in-out;
 }
 
 .hero-search-box button:hover{
-    background: var(--link-h-color);
+    background: var(--mystic-white-hover-bg);
+    cursor: pointer;
 }
 
 #sideOpen, #sideClose{
@@ -286,7 +306,7 @@ nav{
     }
 
     #sideOpen{
-        color: var(--main-color);
+        color: var(--mystic-font-black-color);
         /* position: absolute; */
         /* top: 20px; */
         /* right: 30px; */
@@ -409,7 +429,7 @@ nav{
     font-size: 26px;
     font-weight: 700;
     margin-bottom: 15px;
-    color: var(--primary-color);
+    color: var(--mystic-font-color);
 }
 
 .recent-row, .popular-row{
@@ -429,6 +449,7 @@ nav{
     background: var(--main-color);
     padding: 8px;
     margin-bottom: 30px;
+    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.349);
 }
 
 .anime a{
@@ -477,11 +498,11 @@ nav{
 }
 
 .show-more-btn-box a{
-    background: var(--main-color);
-    color: var(--primary-color);
+    background: var(--mystic-white-background);
+    color: var(--mystic-font-black-color);
     padding: 12px 30px !important;
     font-weight: 700;
-    border: 1px solid var(--main-color) !important;
+    border: 1px solid var(--mystic-border-color) !important;
     margin-bottom: 30px;
     text-decoration: none;
 }
@@ -491,6 +512,7 @@ nav{
 }
 
 .show-more-btn-box a:hover{
+    color: var(--mystic-font-color);
     background: transparent;
 }
 
@@ -571,12 +593,17 @@ footer{
 
 .footer-about-text h3{
     margin-bottom: 14px;
+    color: var(--mystic-font-color);
 }
 
 .footer-about-text p{
     color: #ababab;
     font-size: 15px;
     line-height: 22px;
+}
+
+.footer-col h3{
+    color: var(--mystic-font-color);
 }
 
 .footer-box .footer-col .footer-links-box{
@@ -592,7 +619,7 @@ footer{
 }
 
 .footer-box .footer-col .footer-links-box a:hover{
-    color: #e9467a;
+    color: var(--mystic-font-color);
 }
 
 .copyright{
@@ -603,6 +630,10 @@ footer{
     background: rgb(38, 38, 38);
     font-weight: 300;
     margin-top: 20px;
+}
+
+.copyright p{
+    color: #ababab;
 }
 
 .copyright i { color: rgb(255, 0, 79); }
@@ -697,12 +728,17 @@ footer{
 .anime-left #animeTitle{
     margin-bottom: 15px;
     line-height: 30px;
+    color: var(--mystic-font-color);
 }
 
 #animeDescription{
     line-height: 23px;
     font-size: 14px;
     color: #ababab;
+}
+
+#animeDescription b{
+    color: var(--mystic-font-color);
 }
 
 .anime-info-box{
@@ -786,6 +822,7 @@ footer{
 
 .dl-text-box p{
     font-weight: 600;
+    color: var(--mystic-font-color);
 }
 
 .dl-btn-box a{
@@ -803,12 +840,13 @@ footer{
 }
 
 .dl-btn-box a:hover, .dl-btn-box a:hover i{
-    color: var(--link-h-color);
-    border-color: var(--link-h-color) !important;
+    color: var(--mystic-font-black-color);
+    background: var(--mystic-white-background);
 }
 
 .dl-box div{
-    border: 1px solid #ff00517c !important;
+    border: 1px solid;
+    border-color: var(--mystic-border-color) !important;
     width: 40%;
     padding: 12px 20px;
     height: 70px;
@@ -827,7 +865,7 @@ footer{
 .how-to-btn-box a, .how-to-btn-box a i{
     background: var(--main-color);
     color: var(--primary-color);
-    background: #ff00514f;
+    background: var(--mystic-white-background);
 }
 
 .how-to-btn-box a{
@@ -874,7 +912,7 @@ footer{
 }
 
 hr{
-    border-color: #ff005146 !important;
+    border-color: var(--mystic-border-light-color) !important;
     margin: 35px auto !important;
     border-top: none !important;
     width: 98%;
@@ -1000,7 +1038,7 @@ hr{
 }
 
 .notFound h3{
-    color: var(--primary-color);
+    color: var(--mystic-font-color);
 }
 
 .notFound h5{
@@ -1167,11 +1205,11 @@ hr{
 }
 
 .collect-email .collect-email-inputs .collect-email-input:focus {
-    border-color: #ff004f !important;
+    border-color: #fff !important;
 }
 
 .collect-email .collect-email-inputs .collect-email-btn {
-    background: #ff004f;
+    background: #fff;
     border: none !important;
     cursor: pointer;
 }
@@ -1736,7 +1774,7 @@ hr{
 }
 
 .showcase-box-main .show-box-top p:hover{
-    background: var(--link-h-color);
+    background: var(--mystic-black-hover-bg);
     color: var(--primary-color) !important;
 }
 
@@ -1850,7 +1888,7 @@ hr{
 }
 
 #adult p{
-    color: var(--main-color) !important;
+    color: var(--mystic-font-black-color) !important;
     font-weight: 600;
     border-bottom: 1px solid var(--main-color) !important;
     padding-bottom: 10px;
@@ -1875,10 +1913,12 @@ hr{
 
 #adult #adultBtnFalse{
     background: #000;
+    color: var(--mystic-font-color);
 }
 
 #adult #adultBtnTrue:hover{
-    background: var(--link-h-color);
+    background: var(--mystic-background);
+    color: var(--mystic-font-color);
 }
 
 #adult #adultBtnFalse:hover{
@@ -1981,4 +2021,159 @@ hr{
 
 .notifications p a:hover{
     color: var(--primary-color-hover);
+}
+
+
+/* ------------------- New Home Page --------------------- */
+
+.home-search-box-main{
+    height: 350px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.home-search-box{
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    border-radius: 4px;
+    background-image: url("https://wallpapercave.com/wp/wp5203548.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home-search-box-blur{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 1px );
+    -webkit-backdrop-filter: blur( 1px );
+    border-radius: 4px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+}
+
+.home-search{
+    margin-top: 0 !important;
+}
+
+.home-page-content h1,
+.home-page-content h2,
+.home-page-content h3,
+.home-page-content h4,
+.home-page-content h5,
+.home-page-content h6{
+    color: var(--mystic-font-color);
+    margin-bottom: 12px;
+}
+
+.home-page-content p{
+    color: #cacaca;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+.home-page-content p b{
+    color: var(--mystic-font-color);
+}
+
+.home-center-content{
+    margin: auto;
+    width: 85%;
+    margin-top: 50px;
+    /* text-align: center; */
+}
+
+.home-center-content h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.warning-txt{
+    text-align: center;
+    color: red !important;
+}
+
+.about-and-desc-main{
+    background: var(--footer-bg-color);
+    padding: 30px;
+    margin-top: 50px;
+}
+
+.about-and-desc{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.about-box{
+    width: 40%;
+}
+
+.desc-box{
+    width: 50%;
+}
+
+.social-icon-links{
+    display: flex;
+    gap: 8px;
+}
+
+.social-icon-links i{
+    font-size: 24px;
+    color: var(--mystic-font-color);
+    padding: 5px;
+    border-radius: 4px;
+    background: var(--mystic-black-hover-bg);
+    color: var(--mystic-font-black-color);
+}
+
+.social-icon-links a:hover i{
+    background: var(--mystic-font-color);
+    color: var(--mystic-font-black-color);
+}
+
+.homeFooter{
+    margin-top: 2px !important;
+}
+
+.home-search-box-new #searchInput{
+    background: #f9f9f991;
+    color: var(--mystic-font-black-color);
+    border: 1px solid #000 !important;
+}
+
+.home-search-box-new #searchInput:focus{
+    border: 1px solid var(--mystic-border-black-color) !important;
+}
+
+
+
+@media only screen and (max-width: 888px){
+    .home-search-box{
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 540px){
+    .home-search-box-new{
+        border: 1px solid #000;
+        flex-wrap: nowrap;
+        height: 40px;
+    }
+
+    .home-search-box-new #searchInput{
+        width: 70%;
+    }
+
+    .home-search-box-new button{
+        padding: 0 15px;
+    }
 }
