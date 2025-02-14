@@ -2164,7 +2164,7 @@ hr{
 
 @media only screen and (max-width: 540px){
     .home-search-box-new{
-        border: 1px solid #000;
+        /* border: 1px solid #000; */
         flex-wrap: nowrap;
         height: 40px;
     }
