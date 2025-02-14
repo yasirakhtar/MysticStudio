@@ -68,24 +68,3 @@ let searchUrl = window.location.search.slice(3)
 //         mobileSearch.style.display = "none";
 //     }
 // }
-
-
-// ------------------- Auth ---------------------
-
-(function () {
-    document.addEventListener("DOMContentLoaded", () => {
-        // Check if script is already added
-        if (document.querySelector("script[src='https://yasirakhtar.co/auth/check.js']")) {
-            return;
-        }
-
-        // Create a new script tag
-        const script = document.createElement("script");
-        script.src = "https://yasirakhtar.co/auth/check.js";
-        script.setAttribute("data-project", "MysticWatch"); // Change project name dynamically if needed
-        script.defer = true;
-
-        // Append to <head>
-        document.head.appendChild(script);
-    });
-})();
