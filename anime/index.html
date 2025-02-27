@@ -15,7 +15,7 @@
     <meta property="og:title" content="Download Anime In Hindi">
     <meta property="og:description" content="Download Thousands of Anime In Hindi ">
     <meta property="og:url" content="https://www.mxfly.in/default-page.html">
-    <meta property="og:site_name" content="mxfly">
+    <meta property="og:site_name" content="Mystic Watch">
     <meta property="og:image" content="https://www.mxfly.in/default-image.jpg">
     <meta property="og:image:secure_url" content="https://www.mxfly.in/assets/default/img/poster.jpg">
     <meta property="og:image:width" content="236">
@@ -23,7 +23,7 @@
     <meta property="og:image:alt" content="Anime Poster">
     <meta property="og:image:type" content="image/jpeg">
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="MxFly - Anime Title">
+    <meta name="twitter:title" content="Mystic Watch - Anime Title">
     <meta name="twitter:description" content="Download Thousands of Anime In Hindi ">
     <meta name="twitter:image" content="https://www.mxfly.in/assets/default/img/poster.jpg">
     <meta name="twitter:label1" content="Written by">
@@ -120,9 +120,14 @@
     <div class="mobile-search-main" id="mobileSearch">
         <div class="mobile-search-box">
             <form action="/search/" method="get" id="mobileSearchForm">
-                <input type="text" name="s" id="searchInput" placeholder="Enter Anime Name..." required>
+                <input type="text" name="s" id="searchInput" autocomplete="off" auto placeholder="Enter Anime Name..." required>
                 <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
             </form>
+            <div class="auto-suggetion-box" id="autoSuggetionBox">
+                <ul class="list">
+                    
+                </ul>
+            </div>
         </div>
     </div>
 
@@ -146,8 +151,8 @@
                 <div class="anime-left-content">
                     <h2 id="animeTitle">${curElem.title}</h2>
                     <p id="animeDescription">✅ ${curElem.name} Hindi Dubbed ORG DD 5.1 Download This Anime In Hindi With
-                        Multi Quality 480P | 720P | 1080P BluRay WEB-DL Get Free Anime on <a href="https://mxfly.in"
-                            class="web-link"> MxFly</a>.</p>
+                        Multi Quality 480P | 720P | 1080P BluRay WEB-DL Get Free Anime on <a href="/"
+                            class="web-link"> Mystic Watch</a>.</p>
                     <div class="anime-info-box">
                         <h3>Anime Info:</h3>
                         <p><b>Anime Name -</b> <span id="seriesName">${curElem.name}</span></p>
@@ -335,6 +340,7 @@
     <script src="/assets/default/js/anime.js"></script>
     <script src="/assets/default/js/animeRecent.js"></script>
     <script src="/assets/default/js/notice.js"></script>
+    <script src="/assets/default/js/autofill.js"></script>
 </body>
 
 </html>

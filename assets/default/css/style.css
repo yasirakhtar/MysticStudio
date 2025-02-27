@@ -2199,3 +2199,61 @@ hr{
         margin-top: 30px;
     }
 }
+
+/* auto suggestion */
+
+.mobile-search-box{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 70%;
+    margin: auto;
+}
+
+.mobile-search-box form{
+    width: 100%;
+}
+
+.auto-suggetion-box{
+    display: none;
+    width: 65%;
+    margin: auto;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    background: #fff;
+    padding: 10px;
+    z-index: 999;
+    width: 94%;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.auto-suggetion-box ul li{
+    list-style: none;
+    margin-bottom: 5px;
+    color: #000;
+    padding: 8px 5px;
+    border-bottom: 1px solid #000;
+    white-space: nowrap; /* Yeh prevent karega ki text dusre line me jaye */
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.auto-suggetion-box ul li a{
+    padding: 8px 5px;
+    color: #000;
+}
+
+.home-search-box-new{
+    position: relative;
+}
+
+.home-seggetion{
+    position: absolute;
+    overflow: auto;
+    top: 50px;
+    width: 100%;
+    max-height: 400px;
+}

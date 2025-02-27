@@ -14,7 +14,7 @@ xhttp.onreadystatechange = () => {
             let metaTitle, metaDescription, metaUrl, metaImage, metaTags = [];
 
             if (curElem.isAnime) {
-                metaTitle = `${curElem.name} Hindi Episodes Download - MxFly`;
+                metaTitle = `${curElem.name} Hindi Episodes Download - Mystic Watch`;
                 metaDescription = `Download ${curElem.name} Hindi Episodes.`;
                 metaUrl = `https://www.mxfly.in/anime/?=${curElem.hastag}`;
                 metaImage = curElem.poster || '../assets/default/img/poster.jpg';
@@ -26,7 +26,7 @@ xhttp.onreadystatechange = () => {
                     `Episodes ${curElem.episodes.length}`
                 ];
             } else {
-                metaTitle = `${curElem.name} Anime Download - MxFly`;
+                metaTitle = `${curElem.name} Anime Download - Mystic Watch`;
                 metaDescription = `Download ${curElem.name} Anime in various qualities.`;
                 metaUrl = `https://www.mxfly.in/anime/?=${curElem.hastag}.html`;
                 metaImage = curElem.poster || '../assets/default/img/poster.jpg';
@@ -53,7 +53,7 @@ xhttp.onreadystatechange = () => {
                 `<div class="anime-left">
                 <div class="anime-left-content">
                     <h2 id="animeTitle">${curElem.title}</h2>
-                    <p id="animeDescription">✅<b> ${curElem.name}</b> Download This Anime In Multi Audio [Hindi-Tamil-Telugu-English] With Multi Quality 480P | 720P | 1080P BluRay WEB-DL Get Free Anime on <b><a href="https://mxfly.in" class="web-link"> MxFly</a></b>.</p>
+                    <p id="animeDescription">✅<b> ${curElem.name}</b> Download This Anime In Multi Audio [Hindi-Tamil-Telugu-English] With Multi Quality 480P | 720P | 1080P BluRay WEB-DL Get Free Anime on <b><a href="/" class="web-link"> Mystic Watch</a></b>.</p>
                     <div class="anime-info-box">
                         <h3>Anime Info:</h3>
                         <p><b>Anime Name -</b> <span id="seriesName">${curElem.name}</span></p>

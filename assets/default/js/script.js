@@ -24,6 +24,8 @@ function closeSearchPopUpBox() {
     mobileSearch.style.display = "none";
 }
 
+openSearchPopUpBox()
+
 // search Js
 
 let searchUrl = window.location.search.slice(3)

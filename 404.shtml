@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/assets/default/img/favicon.png" type="image/x-icon">
-    <title>All Post - MxFly</title>
+    <title>404 - Mystic Watch</title>
 
     <!-- Meta Tags -->
     <meta name="description"
-        content="Watch the latest Anime Movies in your preferred language for free on MxFly! Download and enjoy the best HD quality Anime content with our simple and secure download process. Start streaming now!">
+        content="Watch the latest Anime Movies in your preferred language for free on Mystic Watch! Download and enjoy the best HD quality Anime content with our simple and secure download process. Start streaming now!">
     <meta name="keywords"
-        content="MxFly All Post, mxfly all post, free anime download, mxfly free anime, mxfly free anime download, mxfly anime, anime downlaod by mxfly, mxfly anime download, Anime, MxFly, Naruto: Shippuden, Death Note, One Piece, Demon Slayer, Attack on Titan, dragon ball super, anime porn, anime sex, 9 anime, anime wallpaper, anime xxx, xxx anime, anime drawing, hentai anime, anime hentai">
+        content="Mystic Watch All Post, Mystic Watch all post, free anime download, Mystic Watch free anime, Mystic Watch free anime download, Mystic Watch anime, anime downlaod by Mystic Watch, Mystic Watch anime download, Anime, Mystic Watch, Naruto: Shippuden, Death Note, One Piece, Demon Slayer, Attack on Titan, dragon ball super, anime porn, anime sex, 9 anime, anime wallpaper, anime xxx, xxx anime, anime drawing, hentai anime, anime hentai">
 
     <!-- Font Awesome CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -152,6 +152,7 @@
     <!-- JavaScript -->
     <script src="/assets/default/js/script.js"></script>
     <script src="/assets/default/js/allAnime.js"></script>
+    <script src="/assets/default/js/autofill.js"></script>
 </body>
 
 </html>
