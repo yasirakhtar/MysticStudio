@@ -2127,17 +2127,25 @@ hr{
 
 .social-icon-links i{
     font-size: 24px;
-    color: var(--mystic-font-color);
     padding: 5px;
     border-radius: 4px;
-    background: var(--mystic-black-hover-bg);
     color: var(--mystic-font-black-color);
 }
 
-.social-icon-links a:hover i{
+.social-icon-links a{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px;
+    background: var(--mystic-black-hover-bg);
+    border-radius: 4px;
+    color: var(--mystic-font-black-color);
+}
+.social-icon-links a:hover{
     background: var(--mystic-font-color);
     color: var(--mystic-font-black-color);
 }
+
 
 .homeFooter{
     margin-top: 2px !important;
