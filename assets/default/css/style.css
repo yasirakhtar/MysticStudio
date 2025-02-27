@@ -2227,7 +2227,7 @@ hr{
     z-index: 999;
     width: 94%;
     max-height: 500px;
-    overflow: scroll;
+    overflow-y: scroll;
 }
 
 .auto-suggetion-box ul li{
